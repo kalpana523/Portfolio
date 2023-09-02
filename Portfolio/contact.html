@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpana - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: floralwhite;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 28px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: BLACK;
+        }
+        /* main hr {
+            border: 100;
+            background: #0e0870;
+            height: 1.2px;
+            margin: 400px 84px;
+        } */
+
+        .left {
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: bolder;
+            padding: 90px;
+        }
+        .Home
+        {
+            font-size:1.09rem;
+            color:blueviolet;
+        }
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.09rem;
+        }
+
+       .contactform{
+                padding:0 34px;
+                padding-top:200px;
+                font-family:"Fira Sans",sans-serif;
+       }
+       .contactform h1{
+        font-family: 'Source Code Pro', monospace;
+        text-align:center;
+       }
+       .contactform form div{
+        padding:10px 0;
+        display: flex;
+        flex-direction: column;
+       }
+       .contactform form div input{
+        width:16vw;
+        border-radius:5px;
+        margin:6px 0 0 0;
+        padding:3px ;
+       
+       }
+       #emailHelp{
+        font-size:12px;
+        color:midnightblue;
+        margin:0 5px;
+        padding: 3px 0 0 0;
+       }
+       #form-check{
+        
+        flex-direction:row;
+       }
+       #form-check input{
+        width:2px;
+        margin:3px 0px;
+
+       }
+       .btn-sm{
+        font-size:14px;
+        padding: 10px 19px;
+        margin: 12px 0;
+        border:3px solid yellowgreen;
+        background-color:blueviolet ;
+        color:floralwhite;
+        border-radius: 22px;
+       }
+       .btn:hover{
+       background-color: floralwhite;
+       color:blueviolet;
+       padding: 10px 19px;
+
+       
+       }
+        /* footer{
+            background-color:floralwhite;
+            height:233px;
+        }
+        .footer{
+            display:flex;
+            padding:23px 122px;
+            justify-content:space-evenly;
+        }
+        .footer ul{
+            list-style:none;
+
+        }
+        .footer> div{
+            width:223px;
+        }
+        .footer .footer-rights{
+            text-align: center;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <div class="left">Portfolio.</div>
+            <div class="center">
+                <ul>
+                    <li><a href="/portfolio.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/service.html">SERVICE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <div class="contactform">
+                <h1>Contact me for work/general enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientmail" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email and phone number with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientmail" class="form-label">Phone</label>
+                      <input type="phone" class="form-control" id="clientmail">
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientmail" class="form-label">Enquiry</label>
+                      <input type="phone" class="form-control" id="clientmail">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+            </div>
+
+            
+        </div>
+        
+        
+        <!-- <hr style> -->
+
+    </main>
+
+   
+ <!-- <footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Kalpana's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+       <div class="footer-rights">
+         www.kalpanaportfolio.com | All rights reserved
+       </div> 
+    </div>
+ </footer>    
+</body> -->
+
+</html>

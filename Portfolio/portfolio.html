@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalpana - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: floralwhite;
+            color: black;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 28px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: BLACK;
+        }
+        .Home
+        {
+            font-size:1.09rem;
+            color:blueviolet;
+        }
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.09rem;
+        }
+
+        main hr {
+            border: 100;
+            background: #0e0870;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2.5rem;
+            font-style: normal;
+            font-weight: bolder;
+            padding: 90px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            
+            font-style:inherit;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+
+        }
+
+        .leftSection {
+            color: black;
+            font-size: 2rem;
+
+            font-weight: 600;
+            margin: 30px 0px;
+        }
+
+        .rightSection img {
+            width: min-content;
+            margin-top: 50px;
+            margin-right: 40px;
+
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+            margin: 5%;
+
+        }
+        .buttons button{
+            padding: 9px 14px;
+            border-radius:22px;
+            color:floralwhite;
+            background-color:blueviolet ;
+            border:3px solid yellowgreen;
+            font-weight:bold;
+            font-size:21px;
+            margin:0 3px;
+        }
+        .buttons button:hover{
+            background-color:white;
+         color: blueviolet;
+        }
+        #element {
+            color: rgb(170, 107, 228);
+        }
+        .leftSection .buttons{
+            padding:63px;
+        }
+      
+        footer{
+            background-color:floralwhite;
+            height:233px;
+        }
+        .footer{
+            display:flex;
+            padding:23px 122px;
+            justify-content:space-evenly;
+        }
+        .footer ul{
+            list-style:none;
+
+        }
+        .footer> div{
+            width:223px;
+        }
+        .footer .footer-rights{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <div class="left">Portfolio.</div>
+            <div class="center">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/service.html">SERVICE</a></li>
+                    <li><a href="/blog.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="firstSection">
+            <div class="leftSection">
+
+                Hi,
+                <div>My name is<span class="purple">Kalpana Kumari</span></div>
+                <div>and I'm a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                <a href="/cv.txt">   
+                 <button class="btn">Download Resume</button></a> 
+                 <a href="/contact.html">
+                 <button class="btn">Visit Github</button></a>
+                </div>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="images/wdev.png " alt="developer image">
+            </div>
+        </section>
+        <hr style>
+      
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Web Developer.'],
+            typeSpeed: 80,
+        });
+    </script>
+ <footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Kalpana's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+               
+            </ul>
+        </div>
+       <div class="footer-rights">
+         www.kalpanaportfolio.com | All rights reserved
+       </div> 
+    </div>
+ </footer>    
+</body>
+
+</html>
